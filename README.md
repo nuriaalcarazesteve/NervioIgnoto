@@ -9,6 +9,7 @@ Visual y musical.
 Noise-Ruido.
 Múscia a cargo de Nervio ignoto.
 Nervio Ignoto son Calma Parda y Gara Hernández.
+
 https://nervioignoto.bandcamp.com/album/02-03-2024
 https://www.instagram.com/nervioignoto/
 
