@@ -1,0 +1,134 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 180,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 66,
+      "max": [
+        0.04346347548475951,
+        0.043463475444280975,
+        0.002999999924213626
+      ],
+      "min": [
+        -0.04346347548475951,
+        -0.043463475444281,
+        -0.002999999924213626
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 66,
+      "max": [
+        0.965199779452321,
+        0.9651998729884005,
+        1.0
+      ],
+      "min": [
+        -0.9652802459764105,
+        -0.9652802587339023,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 66,
+      "max": [
+        0.9082144477971862,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Adobe Illustrator",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 720,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 792,
+      "byteOffset": 720,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 792,
+      "byteOffset": 1512,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 528,
+      "byteOffset": 2304,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2832,
+      "uri": "data:application/octet-stream;base64,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"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.0,
+          0.71484375,
+          0.9999999403953552,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.4000000059604645
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

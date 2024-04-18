@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tangram</title>
+    <link rel="icon" type="gltf" href="img/GLTF/Recurso 15.gltf">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="img/logos/favicon.png">
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="https://nervioignoto.bandcamp.com/album/02-03-2024">
+                <img class="logob" src="img/logos/Bandcamp Black.svg" alt="bandcamp">
+            </a>
+            <a href="https://www.instagram.com/nervioignoto/">
+                <img class="logoi" src="img/logos/Instagram.png" alt="instagram">
+            </a>
+            <a href="index.html">
+                <img class="logoni" src="img/logos/favicon.png" alt="index">
+            </a>
+        </div>
+        
+        <a-scene background="color: black" cursor="rayOrigin: mouse">
+            <a-entity camera look-controls="enabled: faslse"></a-entity>
+            <a-plane position="0 0 0" rotation="-90 0 0" width="100" height="100" color="#333"></a-plane>
+            <a-entity id="audio" position="0 0 0" sound="src: url(music/cortesaudio/tangram.mp3); autoplay: true;"></a-entity>
+            <a-assets>
+                <a-asset-item id="tangram1" src="img/tangram/tangram1.gltf"></a-asset-item>
+                <a-asset-item id="tangram2" src="img/tangram/tangram2.gltf"></a-asset-item>
+                <a-asset-item id="tangram3" src="img/tangram/tangram3.gltf"></a-asset-item>
+                <a-asset-item id="tangram4" src="img/tangram/tangram4.gltf"></a-asset-item>
+                <a-asset-item id="tangram5" src="img/tangram/tangram5.gltf"></a-asset-item>
+                <a-asset-item id="tangram6" src="img/tangram/tangram6.gltf"></a-asset-item>
+                <a-asset-item id="tangram7" src="img/tangram/tangram7.gltf"></a-asset-item>
+                <a-asset-item id="tangram8" src="img/tangram/tangram8.gltf"></a-asset-item>
+                <a-asset-item id="tangram9" src="img/tangram/tangram9.gltf"></a-asset-item>
+                <a-asset-item id="tangram10" src="img/tangram/tangram10.gltf"></a-asset-item>
+                <a-asset-item id="tangram11" src="img/tangram/tangram11.gltf"></a-asset-item>
+                <a-asset-item id="tangram12" src="img/tangram/tangram12.gltf"></a-asset-item>
+            </a-assets>
+            <a-entity id="tangram1" scale="100 100 100" position="1 0 10" rotation="10 6 4" gltf-model="#tangram1"
+              animation__fall="property: position; to: 0 0 -10; dur: 500000; easing: linear;"></a-entity>
+            <a-entity id="tangram2" scale="100 100 100" position="0 20 -10" rotation="0 0 0" gltf-model="#tangram2"
+                animation__fall="property: position; to: 0 0 -10; dur: 500000; easing: linear;"></a-entity>
+            <a-entity id="tangram3" scale="100 100 100" position="20 20 -10" rotation="0 0 10" gltf-model="tangram3"
+                animation__fall="property: position; to: 20 0 -10; dur: 60000; easing: linear;"></a-entity>
+            <a-entity id="tangram4" scale="100 100 100" position="-20 0 -10" rotation="10 0 0" gltf-model="#tangram4"
+                animation__fall="property: position; to: -20 0 -10; dur: 650000; easing: linear;"></a-entity>
+            <a-entity id="tangram5" scale="100 100 100" position="20 60 -30" rotation="0 0 0" gltf-model="#tangram5"
+                animation__fall="property: position; to: 15 0 -30; dur: 80000; easing: linear;"></a-entity>
+            <a-entity id="tangram6" scale="100 100 100" position="20 20 -30" rotation="0 0 0" gltf-model="#tangram6"
+                animation__fall="property: position; to: 20 0 -30; dur: 90000; easing: linear;"></a-entity>
+            <a-entity id="tangram7" scale="100 100 100" position="-20 20 -30" rotation="0 0 0" gltf-model="#tangram7"
+                animation__fall="property: position; to: -20 0 -30; dur: 100000; easing: linear;"></a-entity>
+            <a-entity id="tangram8" scale="100 100 100"position="0 20 30" rotation="10 0 0" gltf-model="#tangram8"
+                animation__fall="property: position; to: 0 0 -40; dur: 11000; easing: linear;"></a-entity>
+            <a-entity id="tangram9" scale="1000 1000 1000"position="60 20 -40" rotation="0 20 0" gltf-model="#tangram9"
+                animation__fall="property: position; to: -100 10 -40; dur: 1200000; easing: linear;"></a-entity>
+            <a-entity id="tangram10" scale="100 1000 100"position="70 0 60" rotation="60 0 6" gltf-model="#tangram10"
+                animation__fall="property: position; to: -100 0 -70; dur: 120000; easing: linear;"></a-entity>
+            <a-entity id="tangram11" scale="1000 1000 1000"position="20 20 -40" rotation="0 0 0" gltf-model="#tangram11"
+             animation__fall="property: position; to: 20 0 -40; dur: 1200000; easing: linear;"></a-entity>
+            <a-entity id="tangram12" scale="100 100 100"position="-20 10 -40" rotation="0 10 0" gltf-model="#tangram12"
+             animation__fall="property: position; to: 20 0 -40; dur: 120000; easing: linear;"></a-entity> 
+        </a-scene>
+    </div>
+</body>
+</html>

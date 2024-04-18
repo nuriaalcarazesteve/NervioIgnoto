@@ -1,0 +1,118 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.a-enter-vr-button {
+    display: none;
+  }
+backgound {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  
+}
+body {
+  margin-top: 100px;
+  background-image: url('img/logos/nervioignotoperro.jpg');
+  background-size: auto; /* Utiliza el tamaño original de la imagen */
+  background-repeat: repeat; /* Repite la imagen en ambas direcciones */
+}
+
+.container {
+  /* Agrega estilos adicionales para centrar el contenido si lo deseas */
+  text-align: center;
+  
+}
+body {
+  background-image: url('img/NervioIgnotoperro.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0; /* Asegura que no haya margen alrededor del cuerpo */
+  padding: 0; /* Asegura que no haya relleno alrededor del cuerpo */
+}
+
+.container {
+  position: relative; /* Establece la posición relativa */
+  width: 100%;
+  height: 100vh; /* 100% de la altura de la ventana del navegador */
+}
+
+.logo{
+  position: absolute; /* Establece la posición absoluta */
+  top: 50%; /* Coloca el elemento en la mitad superior del contenedor */
+  left: 50%; /* Coloca el elemento en la mitad izquierda del contenedor */
+  transform: translate(-50%, -50%); /* Centra el elemento */
+  z-index: 1; /* Asegura que los elementos estén en la parte superior */
+}
+
+.video1{
+  position: absolute; /* Establece la posición absoluta */
+  top: 50%; /* Coloca el elemento en la mitad superior del contenedor */
+  left: 50%; /* Coloca el elemento en la mitad izquierda del contenedor */
+  transform: translate(-160%, -60%); /* Centra el elemento */
+  z-index: 1; /* Asegura que los elementos estén en la parte superior */
+}
+
+.video2{
+  position: absolute; /* Establece la posición absoluta */
+  top: 50%; /* Coloca el elemento en la mitad superior del contenedor */
+  left: 50%; /* Coloca el elemento en la mitad izquierda del contenedor */
+  transform: translate(-30%, -0%); /* Centra el elemento */
+  z-index: -1; /* Asegura que los elementos estén en la parte superior */
+}
+.video3{
+  position: absolute; /* Establece la posición absoluta */
+  top: 50%; /* Coloca el elemento en la mitad superior del contenedor */
+  left: 50%; /* Coloca el elemento en la mitad izquierda del contenedor */
+  transform: translate(60%, -110%); /* Centra el elemento */
+  z-index: 2; /* Asegura que los elementos estén en la parte superior */
+}
+.video4{
+  position: absolute; /* Establece la posición absoluta */
+  top: 50%; /* Coloca el elemento en la mitad superior del contenedor */
+  left: 50%; /* Coloca el elemento en la mitad izquierda del contenedor */
+  transform: translate(50%, 50%); /* Centra el elemento */
+  z-index: 2; /* Asegura que los elementos estén en la parte superior */
+}
+
+.foto1{
+  position: absolute;
+  top:80%;
+  right:58%;
+  z-index:-auto;
+
+}
+
+.menu {
+  position: fixed; /* Fija el menú en la posición deseada */
+  top: 0; /* Lo coloca en la parte superior de la ventana */
+  right: 0; /* Lo coloca en el extremo derecho de la ventana */
+  z-index: 9999; /* Establece el menú en el nivel superior */
+  display: flex; /* Utiliza un diseño de caja flexible */
+  flex-wrap: wrap;
+  justify-content: flex-end; /* Alinea los elementos al final del contenedor */
+  padding: 10px; /* Añade un relleno al contenedor */
+}
+
+.logoi,
+.logob,
+.logoni {
+  width: 40px; /* Establece el ancho de las imágenes */
+  height: auto; /* Permite que la altura de las imágenes se ajuste automáticamente */
+  margin-right: 15px; /* Agrega un margen a la derecha para separar las imágenes */
+  margin-top: 10px; /* Añade un margen superior para separar las imágenes del borde superior */
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+  .menu {
+    justify-content: center; /* Centra los elementos en pantallas más pequeñas */
+  }
+
+  .logoi,
+  .logob,
+  .logoni {
+    margin-right: 10px; /* Reduce el margen a la derecha para pantallas más pequeñas */
+  }
+}

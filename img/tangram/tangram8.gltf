@@ -1,0 +1,134 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 60,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 28,
+      "max": [
+        0.01620273396808139,
+        0.016321483970284906,
+        0.009999999747378752
+      ],
+      "min": [
+        -0.016202733968081362,
+        -0.016321483970284906,
+        -0.009999999747378752
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 28,
+      "max": [
+        0.7103563164023032,
+        0.7103141168428525,
+        1.0
+      ],
+      "min": [
+        -0.7103563164023032,
+        -0.7103141168428525,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 28,
+      "max": [
+        1.0,
+        0.8285063519400847
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Adobe Illustrator",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 240,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 336,
+      "byteOffset": 240,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 336,
+      "byteOffset": 576,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 224,
+      "byteOffset": 912,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1136,
+      "uri": "data:application/octet-stream;base64,BQAAAAYAAAAEAAAABwAAAAQAAAAGAAAAAgAAAAEAAAAAAAAAAAAAAAMAAAACAAAACAAAAAwAAAAOAAAACAAAAA4AAAAWAAAACAAAABYAAAAUAAAACAAAABQAAAAMAAAACQAAAA8AAAAQAAAACQAAABAAAAAYAAAACQAAABgAAAAXAAAACQAAABcAAAAPAAAACgAAABEAAAASAAAACgAAABIAAAAaAAAACgAAABoAAAAZAAAACgAAABkAAAARAAAACwAAABMAAAANAAAACwAAAA0AAAAVAAAACwAAABUAAAAbAAAACwAAABsAAAATAAAAmbuEPL8OVLwK1yO8PZtRvKK0hTwK1yO8mbuEvL8OVDwK1yO8PZtRPKK0hbwK1yO8mbuEPL8OVLwK1yM8PZtRvKK0hTwK1yM8mbuEvL8OVDwK1yM8PZtRPKK0hbwK1yM80m/fOhZq3ToAAAAAN4ltvAG8bzwAAAAA0m/fuhZq3boAAAAAN4ltPAG8b7wAAAAAmbuEPL8OVLwK1yO8mbuEPL8OVLwK1yO8PZtRvKK0hTwK1yO8PZtRvKK0hTwK1yO8mbuEvL8OVDwK1yO8mbuEvL8OVDwK1yO8PZtRPKK0hbwK1yO8PZtRPKK0hbwK1yO8mbuEPL8OVLwK1yM8mbuEPL8OVLwK1yM8PZtRvKK0hTwK1yM8PZtRvKK0hTwK1yM8mbuEvL8OVDwK1yM8mbuEvL8OVDwK1yM8PZtRPKK0hbwK1yM8PZtRPKK0hbwK1yM8AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIC/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/AAAAAAAAAAAAAIA/6dk1PwEvND8AAAAAzDE0vyXXNT8AAAAA6dk1vwEvNL8AAAAAzDE0PyXXNb8AAAAA6dk1PwEvND8AAAAAzDE0PyXXNb9LqrCk6dk1PwEvND8AAAAAzDE0vyXXNT9LqrAkzDE0vyXXNT9LqrAk6dk1vwEvNL8AAAAA6dk1vwEvNL8AAAAAzDE0PyXXNb9LqrCk6dk1PwEvND8AAAAAzDE0PyXXNb9LqrAk6dk1PwEvND8AAAAAzDE0vyXXNT9LqrCkzDE0vyXXNT9LqrCk6dk1vwEvNL8AAAAA6dk1vwEvNL8AAAAAzDE0PyXXNb9LqrAkAAAAAOA9Cj/N8ro+CJwvPhDu0D6wLFs+F9ovPQoiFT8Q7tA+1ht1PxfaLz34xBY/AAAAACKpIT/N8ro+AACAP4Z9LD9Cw18/ckN4P0LDXz+GfSw/1qYdP3JDeD/Wph0/zSzUPuP/fz8AAIA/eOM9P6Xkbj/j/38/5IZwP+P/fz8AAIA/4/9/P80s1D544z0/peRuP3jjPT/khnA/eOM9P80s1D6ghj8/AACAP2rU+j6l5G4/oIY/P+SGcD+ghj8/AACAP6CGPz/NLNQ+atT6PqXkbj9q1Po+5IZwP2rU+j4="
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.88671875,
+          0.0234375,
+          0.0742187574505806,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.4000000059604645
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}

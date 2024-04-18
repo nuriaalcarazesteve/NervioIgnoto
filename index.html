@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nervio Ignoto</title>
+    <link rel="icon" type="gltf" href="img/GLTF/Recurso 15.gltf">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="img/logos/favicon.png">
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <a-scene vr-mode-ui="enabled: true" cursor="rayOrigin: mouse" background="#ECECEC">
+        <a-assets>
+            <img id="background" src="img/NervioIgnotoperro.jpeg">
+            <a-asset-item id="tangram" src="img/tangram/tangramindex.gltf"></a-asset-item>
+            <a-asset-item id="concreto" src="img/cilindros/concreto3.gltf"></a-asset-item>
+            <a-asset-item id="logo3d" src="img/logos/logo.gltf"></a-asset-item>
+        </a-assets>
+        <a-entity look-controls="enabled: false"></a-entity>
+        <a-entity id="audio" position="0 0 0" sound="src: url(music/Nervio Ignoto - 02-03-2024 - 04 4.mp3); autoplay: true;"></a-entity>
+        <a-sky id="background" src="#background"></a-sky>
+        <a-link href="tangram.html">
+            <a-entity id="tangram" position="5 1.3 -5" rotation="0 0 0" gltf-model="#tangram" scale="20 20 20" animation="property: rotation; to: 50 -360 0; dur: 9000; easing: linear; loop: true"></a-entity>
+        </a-link>
+        <a-link href="concreto.html">
+            <a-entity id="concreto" position="-5 1.3 -5" rotation="0 0 0" gltf-model="#concreto" scale="20 20 20" animation="property: rotation; to: 70 -360 10; dur: 9500; easing: linear; loop: true"></a-entity>
+        </a-link>
+        <a-link href="nervioignoto.html">
+            <a-entity id="logo3d" position="0 1.3 -5" rotation="0 0 0" gltf-model="#logo3d" scale="15 15 15" animation="property: rotation; to: 0 -360 0; dur: 9500; easing: linear; loop: true"></a-entity>
+        </a-link>
+    </a-scene>
+</body>
+
+</html>

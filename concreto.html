@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concreto</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <a href="https://nervioignoto.bandcamp.com/album/02-03-2024">
+                <img class="logob" src="img/logos/Bandcamp Black.svg" alt="bandcamp">
+            </a>
+            <a href="https://www.instagram.com/nervioignoto/">
+                <img class="logoi" src="img/logos/Instagram.png" alt="instagram">
+            </a>
+            <a href="index.html">
+                <img class="logoni" src="img/logos/favicon.png" alt="index">
+            </a>
+        </div>
+    </div>
+
+    <a-scene background="color: blue" cursor="rayOrigin: mouse">
+        <a-entity camera look-controls="enabled: true"></a-entity>
+        <a-plane position="0 0 0" rotation="-90 0 0" width="100" height="100" color="#333"></a-plane>
+        <a-entity id="audio" position="0 0 0" sound="src: url(music/Nervio Ignoto - 02-03-2024 - 03 3.mp3); autoplay: true; startTime: 332;"></a-entity>
+
+        <a-assets>
+            <a-asset-item id="cilindro1" src="img/cilindros/cilindro1.gltf"></a-asset-item>
+            <a-asset-item id="cilindro2" src="img/cilindros/cilindro2.gltf"></a-asset-item>
+            <a-asset-item id="cilindro3" src="img/cilindros/cilindro3.gltf"></a-asset-item>
+            <a-asset-item id="concreto1" src="img/cilindros/concreto1.gltf"></a-asset-item>
+            <a-asset-item id="concreto2" src="img/cilindros/concreto2.gltf"></a-asset-item>
+            <a-asset-item id="concreto3" src="img/cilindros/concreto3.gltf"></a-asset-item>
+        </a-assets>
+
+        <a-entity id="cilindro1" scale="100 100 100" position="10 0 10" rotation="10 16 4" gltf-model="#cilindro1" animation__fall="property: position; to: 10 0 -10; dur: 5000; easing: linear;"></a-entity>
+
+        <a-entity id="cilindro2" scale="100 100 100" position="1 0 -30" rotation="10 16 4" gltf-model="#cilindro2" animation__fall="property: position; to: 10 0 -10; dur: 5500; easing: linear;"></a-entity>
+
+        <a-entity id="cilindro3" scale="100 100 100" position="-20 0 10" rotation="10 16 4" gltf-model="#cilindro3" animation__fall="property: position; to: 10 0 -10; dur: 5000; easing: linear;"></a-entity>
+
+        <a-entity id="concreto1" scale="100 100 100" position="1 0 -30" rotation="10 16 50" gltf-model="#concreto1" animation__fall="property: position; to: 10 0 10; dur: 50000; easing: linear;"></a-entity>
+
+        <a-entity id="concreto2" scale="100 100 100" position="10 0 10" rotation="10 16 4" gltf-model="#concreto2" animation__fall="property: position; to: -10 0 -10; dur: 5500; easing: linear;"></a-entity>
+
+        <a-entity id="concreto3" scale="100 100 100" position="1 0 -30" rotation="10 16 4" gltf-model="#concreto3" animation__fall="property: position; to: -10 -20 -10; dur: 50000; easing: linear;"></a-entity>
+    </a-scene>
+</body>
+
+</html>
+

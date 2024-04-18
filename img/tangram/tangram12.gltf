@@ -1,0 +1,134 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 162,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 61,
+      "max": [
+        0.04346347546612875,
+        0.04346357314100705,
+        0.0029999999242136246
+      ],
+      "min": [
+        -0.043463475466128734,
+        -0.043463573141007045,
+        -0.0029999999242136246
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 61,
+      "max": [
+        0.9652004041542708,
+        0.9651994781028705,
+        1.0
+      ],
+      "min": [
+        -0.9651996755544462,
+        -0.9652802378585642,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 61,
+      "max": [
+        0.90821397277894,
+        1.0
+      ],
+      "min": [
+        0.0,
+        0.0
+      ],
+      "type": "VEC2"
+    }
+  ],
+  "asset": {
+    "generator": "Adobe Illustrator",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 648,
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 732,
+      "byteOffset": 648,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 732,
+      "byteOffset": 1380,
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 488,
+      "byteOffset": 2112,
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 2600,
+      "uri": "data:application/octet-stream;base64,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"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.88671875,
+          0.0234375,
+          0.0742187574505806,
+          1.0
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.4000000059604645
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 2,
+            "POSITION": 1,
+            "TEXCOORD_0": 3
+          },
+          "indices": 0,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ]
+}
