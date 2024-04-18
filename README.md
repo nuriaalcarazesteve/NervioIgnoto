@@ -14,7 +14,8 @@ https://nervioignoto.bandcamp.com/album/02-03-2024
 https://www.instagram.com/nervioignoto/
 
 Visuales 3D, gráfica y  Web de Núria alcaraz Esteve.
-http//www.nuriaaesteve.com
+
+https://www.nuriaaesteve.com
 
 Se ha realizado con
 A-FRAME
